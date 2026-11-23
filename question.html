@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+<title>Satisfaction Questionnaire</title>
+<style>
+body{
+	font-family: 'Prompt', 'Sarabun', Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+table,tr,th{
+	border:1px solid;
+	border-collapse:collapse;
+}
+table{
+	width: 100%;
+}
+tr,th{
+	padding: 20px;
+}
+.submit{
+	border: 1px black solid;
+	border-radius: 15px;
+	background-color: white;
+	padding: 5px;
+	font-size: 20px;
+	transition: 0.5s;
+}
+.submit:hover{
+	transform: translate(-3px,-3px);
+	box-shadow: 3px 3px;
+}
+.submit:active{
+	transform: translate(0px,0px);
+	box-shadow: none;
+}
+.advice{
+	width: 60%;
+	border: 1px gray solid;
+	border-radius: 18px; 
+}
+.text{
+	text-align: left;
+}
+</style>
+</head>
+<body>
+<h1>แบบสอบถามความพึงพอใจต่อเว็ปไซด์</h1>
+<p>ระดับความพึงพอใจ 1 = น้อยมาก 2 = น้อย 3 = พอใช้  4 = ดี 5 = ดีมาก</p>
+<form action="https://formspree.io/f/myewnkzb" method="post">
+<table>
+	<tr>
+		<th></th>
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+		<th>4</th>
+		<th>5</th>
+	</tr>
+	<tr>
+		<th class="text">1.ความสวยงาม</th>
+		<th><input type="radio" name="ความสวยงาม" value="1"></th>
+		<th><input type="radio" name="ความสวยงาม" value="2"></th>
+		<th><input type="radio" name="ความสวยงาม" value="3"></th>
+		<th><input type="radio" name="ความสวยงาม" value="4"></th>
+		<th><input type="radio" name="ความสวยงาม" value="5"></th>
+	</tr>
+	<tr>
+		<th class="text">2.ความคิดสร้างสรรค์</th>
+		<th><input type="radio" name="ความคิดสร้างสรรค์" value="1"></th>
+		<th><input type="radio" name="ความคิดสร้างสรรค์" value="2"></th>
+		<th><input type="radio" name="ความคิดสร้างสรรค์" value="3"></th>
+		<th><input type="radio" name="ความคิดสร้างสรรค์" value="4"></th>
+		<th><input type="radio" name="ความคิดสร้างสรรค์" value="5"></th>
+	</tr>	
+	<tr>
+		<th class="text">3.การจัดองค์ประกอบ(layout)</th>
+		<th><input type="radio" name="การจัดองค์ประกอบ" value="1"></th>
+		<th><input type="radio" name="การจัดองค์ประกอบ" value="2"></th>
+		<th><input type="radio" name="การจัดองค์ประกอบ" value="3"></th>
+		<th><input type="radio" name="การจัดองค์ประกอบ" value="4"></th>
+		<th><input type="radio" name="การจัดองค์ประกอบ" value="5"></th>
+	</tr>
+	<tr>
+		<th class="text">4.ความสมบูรณ์ของเนื้อหา</th>
+		<th><input type="radio" name="ความสมบูรณ์ของเนื้อหา" value="1"></th>
+		<th><input type="radio" name="ความสมบูรณ์ของเนื้อหา" value="2"></th>
+		<th><input type="radio" name="ความสมบูรณ์ของเนื้อหา" value="3"></th>
+		<th><input type="radio" name="ความสมบูรณ์ของเนื้อหา" value="4"></th>
+		<th><input type="radio" name="ความสมบูรณ์ของเนื้อหา" value="5"></th>
+	</tr>
+
+	<tr>
+		<th class="text">5.ตาราง</th>
+		<th><input type="radio" name="ตาราง" value="1"></th>
+		<th><input type="radio" name="ตาราง" value="2"></th>
+		<th><input type="radio" name="ตาราง" value="3"></th>
+		<th><input type="radio" name="ตาราง" value="4"></th>
+		<th><input type="radio" name="ตาราง" value="5"></th>
+	</tr>
+	<tr>
+		<th class="text">6.การเชื่อมโยงlinkต่างๆ</th>
+		<th><input type="radio" name="การเชื่อมโยงlinkต่างๆ" value="1"></th>
+		<th><input type="radio" name="การเชื่อมโยงlinkต่างๆ" value="2"></th>
+		<th><input type="radio" name="การเชื่อมโยงlinkต่างๆ" value="3"></th>
+		<th><input type="radio" name="การเชื่อมโยงlinkต่างๆ" value="4"></th>
+		<th><input type="radio" name="การเชื่อมโยงlinkต่างๆ" value="5"></th>
+	</tr>
+	<tr>
+		<th class="text">7.การสร้างฟอร์ม(แบบฟอร์มที่ท่านกำลังทำอยู่)</th>
+		<th><input type="radio" name="การสร้างฟอร์ม" value="1"></th>
+		<th><input type="radio" name="การสร้างฟอร์ม" value="2"></th>
+		<th><input type="radio" name="การสร้างฟอร์ม" value="3"></th>
+		<th><input type="radio" name="การสร้างฟอร์ม" value="4"></th>
+		<th><input type="radio" name="การสร้างฟอร์ม" value="5"></th>
+	</tr>
+	<tr>
+		<th class="text">8.การแทรกรูปภาพและวิดีโอ</th>
+		<th><input type="radio" name="การแทรกรูปภาพและวิดีโอ" value="1"></th>
+		<th><input type="radio" name="การแทรกรูปภาพและวิดีโอ" value="2"></th>
+		<th><input type="radio" name="การแทรกรูปภาพและวิดีโอ" value="3"></th>
+		<th><input type="radio" name="การแทรกรูปภาพและวิดีโอ" value="4"></th>
+		<th><input type="radio" name="การแทรกรูปภาพและวิดีโอ" value="5"></th>
+	</tr>
+</table><br><br>
+<div style="margin-left: 50px;">
+<label for="แนะนำ" style="font-size: 20px; color: red;">ข้อเสนอแนะ<label><br>
+<input type="text" name="แนะนำ" class="advice"><br><br>
+<input type="submit" value="submit" class="submit">
+<input type="reset" value="reset" class="submit">
+</div>
+</form>
+</body>
+</html>

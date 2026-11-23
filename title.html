@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="th">
+<meta charset="UTF-8">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+<title>title</title>
+<style>
+body{
+	background-color: lightblue;
+	font-family: 'Prompt', 'Sarabun', Tahoma, sans-serif;
+	line-height: 1.6;
+}
+img{
+	background-color: none;	
+}
+.top{
+	display: flex;	
+	align-items: center;	
+	justify-content: between;
+}
+.link{
+	margin-left: 20%;
+}
+a{
+	text-decoration: none;
+	border: 1px lightblue solid;
+	border-radius: 10px;
+	padding: 5px;
+	color: #1a252f;
+	transition: 0.5s;
+}
+a:hover{
+	color: black;
+	background-color: white;
+	transform: scale(1.02);
+	box-shadow: 3px 3px;
+}
+a:active{
+	color: gray;
+	background-color:none;
+	transform: scale(1);
+	box-shadow: none;
+}
+@keyframes spin{
+from{
+	transform: rotate(0deg);	
+}to{
+	transform: rotate(360deg);
+}
+}
+.rotate{
+	transition: 0.5s;
+}
+.rolate:hover{
+	animation: spin 0.5s linear infinite;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+	<div class="top">
+		<img src="../pk/pic/chaiyaphum-icon.jpg" width="50" height="50" style="padding-right:10px" class="rolate">
+		<h1>จังหวัดชัยภูมิ</h1>
+		<div class="link">
+			<a href="main.html#top-2" target="mainframe">หน้าหลัก</a>
+			<a href="main.html#history" target="mainframe">ประวัติจังหวัดชัยภูมิ</a>
+			<a href="main.html#location" target="mainframe">ที่ตั้งจังหวัดชัยภูมิ</a>
+			<a href="main.html#place" target="mainframe">สถานที่น่าท่องเที่ยวจังหวัดชัยภูมิ</a>
+			<a href="question.html" target="mainframe">แบบสอบถามความพึงพอใจ</a>
+		</div>
+	</div>
+</body>
+</html>
